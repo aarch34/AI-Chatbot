@@ -42,7 +42,7 @@ const App = () => {
           parts: [{ text: value }],
         },
         {
-          role: "Chat-Bot",
+          role: "model",
           parts: [{ text: data }],
         },
       ]);
