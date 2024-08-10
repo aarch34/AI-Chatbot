@@ -42,7 +42,7 @@ const App = () => {
           parts: [{ text: value }],
         },
         {
-          role: "model",
+          role: "Chat-Bot",
           parts: [{ text: data }],
         },
       ]);
@@ -69,7 +69,7 @@ const App = () => {
       <div className="input-container">
         <input
           value={value}
-          placeholder="What day is it today?"
+          placeholder="Ask me a question..."
           onChange={(e) => setValue(e.target.value)}
         />
         {!error && <button onClick={getResponse}>Ask me</button>}
